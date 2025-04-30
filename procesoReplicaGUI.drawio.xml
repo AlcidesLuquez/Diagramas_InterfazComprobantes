@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.4">
+  <diagram name="Página-1" id="dw2B4nSnEoMs6U-HU6j_">
+    <mxGraphModel dx="2026" dy="-1692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="uq1P3-8XqhDjUZ0_sugp-3" target="uq1P3-8XqhDjUZ0_sugp-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-3" value="La aplicación solicita a la API del sistema productivo la información de cabecera del remito" style="html=1;whiteSpace=wrap;fontSize=22;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry y="2940" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="uq1P3-8XqhDjUZ0_sugp-5" target="uq1P3-8XqhDjUZ0_sugp-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-5" value="Se genera en la aplicación una cabecera de comprobante" style="html=1;whiteSpace=wrap;fontSize=26;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-210" y="3540" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="uq1P3-8XqhDjUZ0_sugp-7" target="uq1P3-8XqhDjUZ0_sugp-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-7" value="La aplicación solicita a la API del sistema productivo los datos de un producto en el detalle del remito" style="html=1;whiteSpace=wrap;fontSize=22;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-210" y="3840" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="uq1P3-8XqhDjUZ0_sugp-9" target="uq1P3-8XqhDjUZ0_sugp-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-9" value="Se descarta la replica del remito" style="html=1;whiteSpace=wrap;fontSize=26;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="210" y="3540" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="uq1P3-8XqhDjUZ0_sugp-11" target="uq1P3-8XqhDjUZ0_sugp-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-11" value="La aplicación lee de la base de datos la relación producto-producto entre los sistemas" style="html=1;whiteSpace=wrap;fontSize=24;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-420" y="4440" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="uq1P3-8XqhDjUZ0_sugp-14" target="uq1P3-8XqhDjUZ0_sugp-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-14" value="Se genera un mensaje de error" style="html=1;whiteSpace=wrap;fontSize=26;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="210" y="3840" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-15" value="" style="ellipse;html=1;shape=endState;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="300" y="4140" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-16" value="" style="ellipse;html=1;shape=startState;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="90" y="2860" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-17" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="uq1P3-8XqhDjUZ0_sugp-16" target="uq1P3-8XqhDjUZ0_sugp-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="208" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="uq1P3-8XqhDjUZ0_sugp-19" target="uq1P3-8XqhDjUZ0_sugp-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-19" value="Se guarda el producto en la lista de items del comprobante" style="html=1;whiteSpace=wrap;fontSize=24;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-630" y="5040" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="uq1P3-8XqhDjUZ0_sugp-21" target="uq1P3-8XqhDjUZ0_sugp-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-21" value="Se guarda en una lista de productos sin vincular entre sistemas" style="html=1;whiteSpace=wrap;fontSize=24;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-210" y="5040" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="uq1P3-8XqhDjUZ0_sugp-23" target="uq1P3-8XqhDjUZ0_sugp-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-23" value="La aplicación intenta leer el siguiente producto en el detalle del remito" style="html=1;whiteSpace=wrap;fontSize=24;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-420" y="5340" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="uq1P3-8XqhDjUZ0_sugp-26" target="uq1P3-8XqhDjUZ0_sugp-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="uq1P3-8XqhDjUZ0_sugp-26" target="uq1P3-8XqhDjUZ0_sugp-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-26" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="23.75" y="3240" width="162.5" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="uq1P3-8XqhDjUZ0_sugp-29" target="uq1P3-8XqhDjUZ0_sugp-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="uq1P3-8XqhDjUZ0_sugp-29" target="uq1P3-8XqhDjUZ0_sugp-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-105" y="4370" />
+              <mxPoint x="140" y="4370" />
+              <mxPoint x="140" y="3915" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-29" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-186.25" y="4140" width="162.5" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="uq1P3-8XqhDjUZ0_sugp-32" target="uq1P3-8XqhDjUZ0_sugp-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="uq1P3-8XqhDjUZ0_sugp-32" target="uq1P3-8XqhDjUZ0_sugp-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-32" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-396.25" y="4740" width="162.5" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="uq1P3-8XqhDjUZ0_sugp-35" target="uq1P3-8XqhDjUZ0_sugp-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-315" y="5870" />
+              <mxPoint x="-790" y="5870" />
+              <mxPoint x="-790" y="3915" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="uq1P3-8XqhDjUZ0_sugp-35" target="uq1P3-8XqhDjUZ0_sugp-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-35" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-396.25" y="5640" width="162.5" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="uq1P3-8XqhDjUZ0_sugp-37" target="uq1P3-8XqhDjUZ0_sugp-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-37" value="Se obtiene un comprobante completo" style="html=1;whiteSpace=wrap;fontSize=24;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-210" y="5940" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-38" value="" style="ellipse;html=1;shape=endState;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-120" y="6240" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-39" value="La API responde correctamente" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-413" y="4260" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-40" value="La API responde no&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;correctamente&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="4245" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-41" value="Existe una relación del producto con un producto Physis&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-630" y="4860" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-43" value="No existe una relación del producto con un producto Physis&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-210" y="4850" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-44" value="&lt;div&gt;No quedan productos pendientes de procesar&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-180" y="5740" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-45" value="&lt;div&gt;Quedan productos pendientes de procesar&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-750" y="5755" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-46" value="La API responde correctamente" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-170" y="3365" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uq1P3-8XqhDjUZ0_sugp-47" value="La API responde no&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;correctamente&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="213" y="3350" width="140" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

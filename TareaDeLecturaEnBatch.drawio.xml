@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4">
+  <diagram name="Página-1" id="uKeXr2MUM9J_yvMPVp_r">
+    <mxGraphModel dx="2514" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-1" value="" style="ellipse;html=1;shape=startState;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="399" y="60" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="NfdKOJ36CAFYESbwf_vQ-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="NfdKOJ36CAFYESbwf_vQ-4" target="NfdKOJ36CAFYESbwf_vQ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-4" value="Verifica si se está ejecutando la tarea principal." style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="354" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="NfdKOJ36CAFYESbwf_vQ-7" target="NfdKOJ36CAFYESbwf_vQ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="NfdKOJ36CAFYESbwf_vQ-7" target="NfdKOJ36CAFYESbwf_vQ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-7" value="" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="374" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-9" value="" style="ellipse;html=1;shape=endState;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="425" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-10" value="Se está ejecutando la otra tarea." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="260" width="144" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="NfdKOJ36CAFYESbwf_vQ-12" target="NfdKOJ36CAFYESbwf_vQ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-12" value="Carga la configuración de la tabla usuarioFaena y sus parametros&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="234" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="NfdKOJ36CAFYESbwf_vQ-14" target="NfdKOJ36CAFYESbwf_vQ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-14" value="Carga los datos del punto de venta a procesar." style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="234" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="NfdKOJ36CAFYESbwf_vQ-16" target="NfdKOJ36CAFYESbwf_vQ-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="294" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-16" value="Lee los remitos del día mediante la API." style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="234" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="NfdKOJ36CAFYESbwf_vQ-33" target="NfdKOJ36CAFYESbwf_vQ-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-33" value="Lee el id del último remito procesado." style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="NfdKOJ36CAFYESbwf_vQ-35" target="NfdKOJ36CAFYESbwf_vQ-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="1120" />
+              <mxPoint x="294" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-35" value="Inicia el proceso de replica para los remitos mayores al último." style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="NfdKOJ36CAFYESbwf_vQ-37" target="NfdKOJ36CAFYESbwf_vQ-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-37" value="El servicio verifica si hay más puntos de venta para procesar." style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="234" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="NfdKOJ36CAFYESbwf_vQ-40" target="NfdKOJ36CAFYESbwf_vQ-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="NfdKOJ36CAFYESbwf_vQ-40" target="NfdKOJ36CAFYESbwf_vQ-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-110" y="1370" />
+              <mxPoint x="-110" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-40" value="" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="254" y="1330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-41" value="" style="ellipse;html=1;shape=endState;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1470" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-42" value="Todavía quedan PV por revisar." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="124" y="1320" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-43" value="Ya no quedan PV por revisar." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1320" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="NfdKOJ36CAFYESbwf_vQ-44" target="NfdKOJ36CAFYESbwf_vQ-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="810" />
+              <mxPoint x="460" y="1120" />
+              <mxPoint x="294" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="NfdKOJ36CAFYESbwf_vQ-44" target="NfdKOJ36CAFYESbwf_vQ-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-44" value="" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="254" y="770" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-50" value="Existen remitos en la fecha" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="760" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-51" value="No existen remitos en la fecha" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="760" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NfdKOJ36CAFYESbwf_vQ-52" value="No se está ejecutando la otra tarea." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="222" y="260" width="144" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
